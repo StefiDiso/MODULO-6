@@ -1,0 +1,181 @@
+* {box-sizing: border-box;}
+@font-face {
+    font-family: cool;
+    src: url(./fuentes/coolvetica\ rg.otf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: rob;
+    src: url(./fuentes/Roboto-Light.ttf);
+    font-weight: 300;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+body {
+    margin: auto;
+    text-align: center;
+    width: 1300px;
+    
+
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    width: 1060px;
+    
+}
+
+h1 {
+    font-family: cool;
+    font-weight: 400;
+    color: #0a2ff1;
+    font-size: 120px;
+    
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+}
+
+p {
+    font-family: rob;
+    font-weight: 300;
+    color: #04146c;
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+    width: 950px;
+}
+
+.but, button {
+    display: block;
+    margin: auto;
+    margin-bottom: 12px;
+    margin-top: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 800px;
+    height: 100px;
+}
+
+#b1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: #0a2ff1;
+    font-size: 40px;
+    color: white;
+    border: solid #0a2ff1 1px;
+}
+
+#b2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: white;
+    font-size: 40px;
+    color: #04146c;
+    border: solid #0a2ff1 1px;
+    
+    
+}
+div {
+    display: block;
+    width: 900px;
+    margin: auto;
+
+}
+
+
+main
+{
+    width: 1250px;
+    margin:auto;
+    margin-top: 15%;
+    
+
+}
+#pleta {
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+}
+#contenedor, #paleta {
+    width: 500px;
+}
+#pm1 {
+    font-family: rob;
+    font-weight: 300;
+    font-size: 32px;
+    width: 500px;
+}
+h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    width: 500px;
+    color: #0a2ff1;
+}
+#estrella{
+    width: 30%;
+}
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #04146c;
+}
+#header2 {
+    margin-top: 15%;
+    width: 1250px;
+    text-align: left;
+    padding: 2em;
+
+}
+#po {
+    font-family:  'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: left;
+    width: 1200px;
+}
+
+h3 {
+    font-family: cool;
+    font-weight: 400;
+    font-size: 120px;
+    color: #0a2ff1;
+}
+
+#main2 {
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 1250px;
+   
+}
+.opiniones {
+  
+    width: 380px;
+    height: 330px;
+    background-color: #eff2ff;
+    border: none;
+    padding: 1em;
+   
+}
+.name {
+    font-size: 24px;
+    width: 320px;
+    text-align: center;  
+}
+.opi {
+    font-size: 24px;
+    width: 320px;
+    text-align: left;
+    
+}
+
+.puntu {
+    width: 30%;
+}
